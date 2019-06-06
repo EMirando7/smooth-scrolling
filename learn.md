@@ -14,5 +14,7 @@
 ### scroll-behaivor
 * how the scrolling will affected when a scrollbar or wheel is used.
 
-* default value is snappy, instant > auto
-* a more graudual look, with a landscape view of the content, > smooth
+* default value is snappy, instant
+> auto
+* a more graudual look, with a landscape view of the content
+> smooth
