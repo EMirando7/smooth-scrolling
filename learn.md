@@ -18,3 +18,17 @@
 > auto
 * a more graudual look, with a landscape view of the content
 > smooth
+
+### scroll-snap-type
+* takes in two values:
+    * either x or y axis where the snapping is going to take place
+    * type of snap
+        > proximity
+        > mandatory
+* proximity not snap if possible, only if there is enough space on both for some content on both blocks are showing, otherwise, it behaves like a mandatory
+* mandatory will  snap regardless of the content of each block, which block has more real estate is towards where the snap will happen
+* to summerize of syntax:
+> x proximity
+
+> y mandatory
+## can change amongst
